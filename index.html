@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>AXL033 :: dev portfolio</title>
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Animated background grid & glow -->
+  <div class="bg-grid"></div>
+  <div class="glow-orb glow-1"></div>
+  <div class="glow-orb glow-2"></div>
+
+  <!-- Floating code snippets (decor) -->
+  <div class="floating-code code-1">def __init__(self): pass</div>
+  <div class="floating-code code-2">await fetch('/api/user')</div>
+  <div class="floating-code code-3">npm run build</div>
+  <div class="floating-code code-4">SELECT * FROM minds;</div>
+
+  <div class="container">
+    <!-- Header / Hero -->
+    <header class="hero section-fade" id="hero">
+      <div class="hero-badge">
+        <span class="cursor-blink">></span> system.online
+      </div>
+      <div class="glitch-wrapper">
+        <h1 class="glitch-title" data-text="AXL033">AXL033</h1>
+      </div>
+      <div class="typewriter-line">
+        <span class="prompt">$></span> <span class="typewriter-text" id="typewriter"></span><span class="cursor">_</span>
+      </div>
+      <div class="hero-tags">
+        <span class="tag"><i class="fab fa-python"></i> python architect</span>
+        <span class="tag"><i class="fas fa-code-branch"></i> full‑stack</span>
+        <span class="tag"><i class="fas fa-mask"></i> social engineering</span>
+      </div>
+      <div class="scroll-hint">
+        <div class="mouse-icon"></div>
+        <span>scroll_down — more below</span>
+      </div>
+    </header>
+
+    <!-- About / Intro -->
+    <section class="about section-fade" id="about">
+      <div class="section-label">
+        <span class="line-number">01.</span>
+        <h2>about()</h2>
+        <div class="label-line"></div>
+      </div>
+      <div class="about-card glass-panel">
+        <div class="code-comment">// AXL033 — python developer & behavioral analyst</div>
+        <p class="about-text">
+          I architect <span class="highlight">Python</span> backends, automate workflows, and explore the edges of human psychology. 
+          Professional experience in software engineering combined with deep knowledge of 
+          <span class="glow-text">dark psychology</span>, <span class="glow-text">people management</span>, and <span class="glow-text">fraud detection/prevention</span>.
+        </p>
+        <div class="status-bar">
+          <span><i class="fas fa-circle"></i> active for projects</span>
+          <span><i class="fas fa-map-pin"></i> primary hub: Telegram</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills — two columns -->
+    <section class="skills section-fade" id="skills">
+      <div class="section-label">
+        <span class="line-number">02.</span>
+        <h2>skill_stack</h2>
+        <div class="label-line"></div>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Tech column -->
+        <div class="skill-category glass-panel">
+          <div class="category-header">
+            <i class="fas fa-terminal"></i>
+            <h3>dev::core</h3>
+            <span class="file-icon">.py .cpp .js</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item" data-level="95"><span>Python</span><div class="progress"><div style="width:95%"></div></div></div>
+            <div class="skill-item" data-level="80"><span>C++</span><div class="progress"><div style="width:80%"></div></div></div>
+            <div class="skill-item" data-level="85"><span>HTML/CSS/JS</span><div class="progress"><div style="width:85%"></div></div></div>
+            <div class="skill-item" data-level="75"><span>Node.js</span><div class="progress"><div style="width:75%"></div></div></div>
+            <div class="skill-item" data-level="70"><span>PHP</span><div class="progress"><div style="width:70%"></div></div></div>
+          </div>
+          <div class="extra-tech">
+            <span>Template engines</span><span>Pug • Twig • Blade</span>
+            <span>Preprocessors</span><span>SCSS • LESS • Stylus</span>
+          </div>
+        </div>
+
+        <!-- Psychology / Dark skills -->
+        <div class="skill-category glass-panel">
+          <div class="category-header">
+            <i class="fas fa-brain"></i>
+            <h3>mind::palace</h3>
+            <span class="file-icon">.dark .social</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item" data-level="90"><span>Dark Psychology</span><div class="progress"><div style="width:90%"></div></div></div>
+            <div class="skill-item" data-level="88"><span>People Management</span><div class="progress"><div style="width:88%"></div></div></div>
+            <div class="skill-item" data-level="92"><span>Fraud & Manipulation</span><div class="progress"><div style="width:92%"></div></div></div>
+          </div>
+          <div class="quote-terminal">
+            <i class="fas fa-quote-right"></i> "Influence is the ultimate source code."
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Music & Vibe -->
+    <section class="music section-fade" id="music">
+      <div class="section-label">
+        <span class="line-number">03.</span>
+        <h2>audio::stack</h2>
+        <div class="label-line"></div>
+      </div>
+      <div class="music-container">
+        <div class="music-card glass-panel">
+          <div class="music-icon"><i class="fas fa-wave-square"></i></div>
+          <h3>PHONK</h3>
+          <div class="equalizer">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <p>coding rhythm • drift phonk</p>
+        </div>
+        <div class="music-card glass-panel">
+          <div class="music-icon"><i class="fas fa-guitar"></i></div>
+          <h3>ROCK</h3>
+          <div class="equalizer">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <p>classic / alt / indie</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Telegram (main hub) -->
+    <section class="contact section-fade" id="contact">
+      <div class="section-label">
+        <span class="line-number">04.</span>
+        <h2>connect()</h2>
+        <div class="label-line"></div>
+      </div>
+      <div class="contact-card glass-panel">
+        <div class="telegram-badge">
+          <i class="fab fa-telegram-plane"></i>
+          <span>Primary habitat: <strong>Telegram</strong></span>
+        </div>
+        <div class="social-grid">
+          <!-- Replace # with your actual links -->
+          <a href="#" class="social-link" id="tg-link"><i class="fab fa-telegram"></i> t.me/axl033</a>
+          <a href="#" class="social-link"><i class="fab fa-github"></i> github/axl033</a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i> @axl033</a>
+          <a href="#" class="social-link"><i class="fab fa-discord"></i> axl033</a>
+          <a href="#" class="social-link"><i class="fas fa-envelope"></i> axl033@proton.me</a>
+        </div>
+        <p class="edit-message">
+          <i class="fas fa-pencil-alt"></i> edit social links in HTML — they're ready for your URLs
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section-fade">
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <span class="signature">AXL033 <span class="blink">_</span></span>
+        <span class="copyright">© 2025 — code / mind / control</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
